@@ -47,17 +47,20 @@
     }
 }
 
-@media screen and (min-width:901px) and (max-width:2000px){
+@media screen and (min-width:901px) and (max-width:4000px){
     .hidden-on-desktop{
         visibility: hidden;
     }
 
     h1 {
-    }
+        position: relative;
+}
 
     nav li {
         display: inline-block;
         list-style-type: none;
+        position: relative;
+        top: -50px;
         float: right;
         margin: 10px;
     }
@@ -65,5 +68,16 @@
     .main {
         float: left;
         width: 50%;
+    }
+    .header-img {
+        width: auto;
+        height: auto;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        display: block;
+
+    }
+    body {
+        width: auto%;
     }
 }
