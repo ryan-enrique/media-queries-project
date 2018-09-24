@@ -1,0 +1,36 @@
+@media screen and (max-width:339px) {
+    body {
+        width: 339px;
+    }
+
+    .alert-info, hidden-on-desktop {
+        width: 339px;
+        height: 45px;
+        border: 1px solid lightgrey;
+        background-color: lightblue;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 45px;
+        margin: 0 auto;
+    }
+    h1 {
+        text-align: center;
+        max-width: 339px;
+        margin-top: 0;
+    }
+    nav li {
+        list-style-type: none;
+        width: 339px;
+        height: 45px;
+        margin: 10px auto;
+        border: 1px solid grey;
+        background-color: grey;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 45px;
+
+    }
+    .nav-links {
+        padding: 0;
+    }
+}
